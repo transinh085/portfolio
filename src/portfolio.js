@@ -9,10 +9,10 @@ const about = {
   name: 'Tran Nhat Sinh',
   role: 'Web Developer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'I am a student at SaiGon University, pursuing a degree in Information Technology. Driven by a passion for coding, I want to become a fullstack developer. My goal is to excel in this field, contribute to technological advancements, and build innovative applications.',
+  resume: 'Tran_Nhat_Sinh_Resume.pdf',
   social: {
-    linkedin: 'https://linkedin.com/transinh085',
+    linkedin: 'https://linkedin.com/in/transinh085',
     github: 'https://github.com/transinh085',
   },
 }
@@ -22,32 +22,42 @@ const projects = [
   // if there are no projects, Projects section won't show up
   {
     name: 'Educational Management',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    description: [
+      'Developed interface and conducted system design analysis for the Information Technology Department at Saigon University.',
+      'Computerized processes for registering majors, internships, improvement courses, managing warned students, and enforcing student dismissals.',
+      'Developed a platform for students to connect with potential employer',
+    ],
     stack: ['Laravel', 'MySQL', 'React', 'MUI'],
     sourceCode: 'https://github.com',
     livePreview: 'https://dkcn.hgbaodev.id.vn',
   },
   {
     name: 'Shoe Shop',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    description: [
+      'Designed and developed user interface for an e-commerce platform specializing in shoe sales, incorporating thorough system analysis',
+      'Implemented SignalR integration to facilitate real-time updates on new orders, order statuses, and customer feedback within the system',
+      'Established secure and efficient payment processing for orders through seamless integration with PayPal',
+    ],
     stack: ['ASP.NET Core MVC', 'Bootstrap', 'Jquery', 'MySQL'],
     sourceCode: '#',
     livePreview: '#',
   },
   {
     name: 'Exam Management',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    description: [
+      'Handle saving the test progress state if any issues occur during the examination',
+      'Handle detecting cheating during the examination process',
+    ],
     stack: ['PHP', 'Boostrap', 'Jquery', 'MySQL'],
     sourceCode: 'https://github.com/transinh085/QuanLyThiTracNghiem',
     livePreview: '#',
   },
   {
     name: 'Vy Food',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    description: [
+      'Develop interface and functionality for end users and website administration.',
+      'Handle login, registration, search, shopping cart, and purchasing using local storage',
+    ],
     stack: ['HTML', 'CSS', 'JavaScript'],
     sourceCode: 'https://github.com/transinh085/VyFood',
     livePreview: 'https://transinh085.github.io/VyFood/',
